@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product>
+  <RecordReference>9781926972794</RecordReference>
+  <NotificationType>03</NotificationType>
+  <ProductIdentifier>
+    <ProductIDType>02</ProductIDType>
+    <IDValue>1926972791</IDValue>
+  </ProductIdentifier>
+  <ProductIdentifier>
+    <ProductIDType>15</ProductIDType>
+    <IDValue>9781926972794</IDValue>
+  </ProductIdentifier>
+  <ProductForm>DG</ProductForm>
+  <EpubType>002</EpubType>
+  <NoSeries />
+  <Title>
+    <TitleType>01</TitleType>
+    <TitleText>Standing Together</TitleText>
+    <Subtitle>Women Speak Out About Violence and Abuse</Subtitle>
+  </Title>
+  <WorkIdentifier>
+    <WorkIDType>01</WorkIDType>
+    <IDValue>9781897142110</IDValue>
+  </WorkIdentifier>
+  <Contributor>
+    <ContributorRole>B01</ContributorRole>
+    <PersonName>Linda Goyette</PersonName>
+    <PersonNameInverted>Goyette, Linda</PersonNameInverted>
+    <NamesBeforeKey>Linda</NamesBeforeKey>
+    <KeyNames>Goyette</KeyNames>
+    <BiographicalNote>&amp;lt;p&amp;gt;Linda Goyette is a writer, editor, and journalist with a strong interest in oral history and contemporary storytelling. She has written three books of non-fiction and is the author of three of the four Courageous Kids books: &amp;lt;i&amp;gt;Kidmonton: True Stories of River City Kids&amp;lt;/i&amp;gt;, &amp;lt;i&amp;gt;Rocky Mountain Kids&amp;lt;/i&amp;gt;, and &amp;lt;i&amp;gt;Northern Kids&amp;lt;/i&amp;gt;. Visit her website at www.lindagoyette.ca.&amp;lt;/p&amp;gt;</BiographicalNote>
+  </Contributor>
+  <NoEdition />
+  <Language>
+    <LanguageRole>01</LanguageRole>
+    <LanguageCode>eng</LanguageCode>
+  </Language>
+  <NumberOfPages>240</NumberOfPages>
+  <Extent>
+    <ExtentType>00</ExtentType>
+  </Extent>
+  <BASICMainSubject>SOC028000</BASICMainSubject>
+  <OtherText>
+    <TextTypeCode>01</TextTypeCode>
+    <TextFormat>06</TextFormat>
+    <Text>&amp;lt;p&amp;gt;&amp;lt;i&amp;gt;Standing Together&amp;lt;/i&amp;gt; is a powerful expression of women's collective and individual strength. It is a collection of personal stories from women who have suffered the horrors of violence and abuse and have made the hardest decision: to stand up, choose life, take control and walk away from the darkness.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;The disturbing, compelling, and inspiring stories in &amp;lt;i&amp;gt;Standing Together&amp;lt;/i&amp;gt; were written by women of all ages, professions, and ethnicities, from rural and urban areas and all social backgrounds; they could be women you know. They tell of abuse at the hands of husbands, boyfriends and partners, fathers and strangers. They tell of deciding to seek help, leaving a life of fear for one of hope. They tell of the family, friends, and strangers that helped them rebuild their lives. Taken together, they form a greater story of hope and inspiration: &amp;lt;i&amp;gt;You are not alone. You can make a change. You can survive this, get through the pain, and build a new life. You have the strength; we have the strength when we stand together.&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;</Text>
+  </OtherText>
+  <Imprint>
+    <ImprintName>Brindle &amp;amp; Glass</ImprintName>
+  </Imprint>
+  <Publisher>
+    <PublishingRole>01</PublishingRole>
+    <PublisherName>Brindle &amp;amp; Glass</PublisherName>
+  </Publisher>
+  <PublishingStatus>04</PublishingStatus>
+  <PublicationDate>20110201</PublicationDate>
+  <SalesRights>
+    <SalesRightsType>01</SalesRightsType>
+    <RightsTerritory>WORLD</RightsTerritory>
+  </SalesRights>
+  <RelatedProduct>
+    <RelationCode>13</RelationCode>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9781897142110</IDValue>
+    </ProductIdentifier>
+  </RelatedProduct>
+  <SupplyDetail>
+    <SupplierName>Brindle &amp;amp; Glass</SupplierName>
+    <SupplierRole>01</SupplierRole>
+    <AvailabilityCode>IP</AvailabilityCode>
+    <OnSaleDate>2011-02-01</OnSaleDate>
+    <Price>
+      <PriceTypeCode>01</PriceTypeCode>
+      <PriceQualifier>10</PriceQualifier>
+      <PriceAmount>20.95</PriceAmount>
+      <CurrencyCode>CAD</CurrencyCode>
+      <Territory>WORLD</Territory>
+    </Price>
+    <Price>
+      <PriceTypeCode>01</PriceTypeCode>
+      <PriceAmount>14.99</PriceAmount>
+      <CurrencyCode>CAD</CurrencyCode>
+      <Territory>WORLD</Territory>
+    </Price>
+  </SupplyDetail>
+</Product>
