@@ -12,14 +12,16 @@ a back of desk project to write a decent onix tool
 # current intentional database limitations:
 
 * only going to support one "PR.2.10 Barcode indicator"
+
     might consider a comma separated list of the code values
     same as "PR.3.2 Product form detail"
     same as "PR.3.11 Product content type code"
     totally skipped the entire "Contained item product identifier composite"
 
 * there are a bunch of functionalities (pieces of data) that most publishers will never use
+
     generally, these will be annoying clutter
-    clever thing to do: hide these by default
+    clever thing to do: hide these by default, negotiate some way to enable them
 
 * only going to support one "Series identifier composite" per series
 
