@@ -2,7 +2,7 @@
 a back of desk project to write a decent onix tool
 
 # road map:
-* make the test parsing code work, and pull some data into the database
+* make "importbiblioshare.php" get some data into the database, identifiers and title strings for now
 * complete the schema sql
 * complete the parser
 * build management ui

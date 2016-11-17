@@ -1,7 +1,7 @@
 <?php
-require_once( "onixparser.php" );
+require_once( "../oniximport/onixparser.php" );
 
-$rawFile = file_get_contents( "./test.xml" );
+$rawFile = file_get_contents( "./testdata1.xml" );
 
 $onix = new OnixParser( $rawFile );
 
