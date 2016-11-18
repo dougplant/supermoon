@@ -3,6 +3,11 @@ a back of desk project to write a decent onix tool
 
 # road map:
 * make "importbiblioshare.php" get some data into the database, identifiers and title strings for now
+  ** working on findorcreate identifiers:
+  ** roughed out the find query
+  ** have to now create core record plus all the identifier records needed
+  ** assuming that the id of the core record is "$hRecord"
+  ** ... kind of thinking that this is going to have an analog for ezp storage
 * complete the schema sql
 * complete the parser
 * build management ui

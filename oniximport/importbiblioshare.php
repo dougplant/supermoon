@@ -4,6 +4,9 @@
 // bs token
 // filename with isbns in it
 
+require_once( "./oniximport/onixparser.php" );
+require_once( "./oniximport/sqlstorage.php" );
+
 // parse parameters
 $parameters = array
 (
@@ -58,6 +61,36 @@ foreach( $parameters as $param => $value )
 // convert parameter to array of isbns
 $parameters[ "isbnfile" ] = convertIsbnFile( $parameters[ "isbnfile" ] );
 echo "Found: " . count( $parameters[ "isbnfile" ] ) . " isbns.\n";
+
+foreach( $parameters[ "isbnfile" ] as $isbn )
+{
+    $storage = new SQLStorage( $parameters );
+    $xml = fetchFromBS( $isbn, $parameters );
+    $onix = new OnixParser( $xml );
+    
+    $data[ "ProductIdentifier" ] = $onix->fetchCompsite
+        ( array(
+            "/Product/ProductIdentifier"
+            , array( "ProductIDType", 1, 1 )
+            , array( "IDTypeName", 0, 1 )
+            , array( "IDValue", 1, 1 )
+            ), 1, -1
+        );
+    print_r( $data );
+    
+    $hRecord = $storage->findOrCreateProductCore( $data[ "ProductIdentifier" ] );
+    
+}
+
+
+//---------------------------------------------------------------------------------------------
+function fetchFromBS( $isbn, $parameters )
+{
+    $url = "http://www.biblioshare.org/BNCServices/BNCServices.asmx/ONIX?Token=" . $parameters[ "bibliosharetoken" ] . "&EAN=" . $isbn;
+    $xml = file_get_contents( $url );
+    echo "Fetched " . strlen( $xml ) . " characters from biblioshare.\n";
+    return $xml;
+}
 
 //---------------------------------------------------------------------------------------------
 // accept URL, string of isbns, or file
